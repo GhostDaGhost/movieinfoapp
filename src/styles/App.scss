@@ -1,0 +1,13 @@
+#outercontainer {
+    #innercontainer {
+        width: 550px;
+
+        top: 1vmin;
+        position: relative;
+
+        background-color: rgb(34, 34, 34);
+        border-top-left-radius: .5vh;
+        border-top-right-radius: .5vh;
+        border-bottom: .5vh solid orange;
+    }
+}

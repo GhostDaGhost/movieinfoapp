@@ -1,0 +1,12 @@
+#searchbox_container {
+    #searchbox {
+        &:focus {
+            border-color: rgb(252, 200, 105);
+        }
+
+        color: white;
+
+        background: none;
+        border: .1vh solid rgb(230, 149, 0);
+    }
+}

@@ -1,0 +1,13 @@
+#movieratings_container {
+    > #movieratings_table {
+        > #movieratings_tablebody {
+            > .ratingrow {
+                color: white;
+
+                > .ratingdata {
+                    user-select: text;
+                }
+            }
+        }
+    }
+}
