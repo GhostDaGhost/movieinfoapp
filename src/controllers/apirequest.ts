@@ -25,7 +25,7 @@ export const SearchForMovie = async (searchValue: string, setMovieData: Function
     setLoadingState(true);
 
     // GET MOVIE DATA THROUGH API REQUEST
-    await axios.get(`http://www.omdbapi.com/?t=${searchValue}&apikey=${apiKey}`).then(response => {
+    await axios.get(`https://www.omdbapi.com/?t=${searchValue}&apikey=${apiKey}`).then(response => {
         //console.log(response);
 
         // CHECK RESPONSE FOR SUCCESS OR ERROR
